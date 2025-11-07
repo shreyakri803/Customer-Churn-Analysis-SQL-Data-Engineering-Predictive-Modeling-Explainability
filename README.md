@@ -389,7 +389,7 @@ Below is a clean, consulting-style representation of your project’s full data 
 
 ---
 
-# 📊 **EDA Summary (Written for Professional Reports)**
+# 📊 **EDA Summary**
 
 A high-level exploratory analysis of the dataset reveals the following patterns and business insights:
 
@@ -502,7 +502,7 @@ This aligns the ML model with **business decision-making**, increasing trust and
 
 ---
 
-# 💼 **Business Recommendations (Consulting-Grade)**
+# 💼 **Business Recommendations**
 
 Based on data analysis, model outputs, and SHAP insights, the following strategic recommendations are made:
 
@@ -585,3 +585,4 @@ Leverage `Predictions.csv` in Power BI to:
 
 
 The integration of SQL, machine learning, and business intelligence ensures a reliable, interpretable, and scalable framework for proactive churn reduction and customer value growth.
+
