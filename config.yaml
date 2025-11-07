@@ -1,0 +1,22 @@
+data_path: "Customer_Data.csv"
+pred_out_path: "Predictions.csv"
+
+artifacts_dir: "artifacts"
+model_path: "artifacts/model.pkl"
+
+threshold: 0.5
+solver: "lbfgs"
+max_iter: 2000
+class_weight: "balanced"
+
+reports_dir: "reports"
+global_importance_path: "reports/global_importance.png"
+
+# SQL integration
+use_sql: true
+db_path: "churn.db"
+sql:
+  table_name: "prod_Churn"
+  view_churn: "vw_ChurnData"
+  view_joined: "vw_JoinData"
+  sql_file: "SQLQueries.sql"
